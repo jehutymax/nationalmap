@@ -5,235 +5,156 @@
         {
           "items": [
             {
-              "layers": "mybroadband:MyBroadband_Map",
-              "parameters": {
-                "tiled": true
-              },
               "dataUrlType": "none",
               "clipToRectangle": true,
-              "description": "[MyBroadband Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband Map",
+              "description": "[Anti-personnel mines](https://en.wikipedia.org/wiki/Anti-personnel_mine)",
+              "name": "Anti-personnel mines",
               "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
               ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "url": "data/mines_geo.csv",
+              "type": "csv",
               "info": [
                 {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
+                  "name": "Original Description",
+                  "content": "An anti personnel landmine is defined as a mine that explodes due to the presence, proximity or contact with a person. In the case the mine explodes, the mine must have the potential to incapacitate, injure or kill one or many people. Land mines designed to explode due to the presence or contact with vehicles are not considered anti personnel mines."
+        
                 }
               ]
             },
             {
-              "layers": "mybroadband:MyBroadband_Availability",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband Availability Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband Availability",
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "description": "Civil Property Damages (1988-2012).",
+              "type": "csv",
+              "url": "data/col_civil_damage.csv",
+              "name": "Civil Property Damages",
               "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
               ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
+              "tableStyle": {
+                "imageUrl": "images/square.png"
+              },
               "info": [
                 {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
+                  "name": "Original Description",
+                  "content": "A damage to civil property is defined as damage to any property that is not a military objective and property that should not be subject to attacks or acts of retaliation."
                 }
               ]
             },
             {
-              "layers": "mybroadband:MyBroadband_Availability_no_outline",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband Availability Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband Availability no Borders",
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "description": "Armed Conflict Massacres (1980-2012)",
+              "type": "csv",
+              "url": "data/col_massacres.csv",
+              "name": "Armed Conflict Massacres",
               "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
               ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
+              "tableStyle": {
+                "imageUrl": "images/shooting.png"
+              },
               "info": [
                 {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
+                  "name": "Original Description",
+                  "content": "Massacres are defined to be the intentional homicide of 4 or more helpless people at the same location and time using the same method of execution. These events are distinguished by the amount of public exposure with the intention to scare and intimidate. Massacres are the product of the armed actor's absolute power and the helplessness of the victim."
                 }
               ]
-            },
-            {
-              "layers": "mybroadband:MyBroadband_Quality",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband Quality Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband Quality",
-              "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
-              ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
-                }
-              ]
-            },
-            {
-              "layers": "mybroadband:MyBroadband_ADSL_Quality",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband ADSL Quality Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband ADSL Quality",
-              "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
-              ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
-                }
-              ]
-            },
-            {
-              "layers": "mybroadband:MyBroadband_ADSL_Quality_no_outline",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband ADSL Quality Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband ADSL Quality no Borders",
-              "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
-              ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
-                }
-              ]
-            },
-            {
-              "layers": "mybroadband:MyBroadband_ADSL_Availability",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband ADSL Availability Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband ADSL Availability",
-              "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
-              ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
-                }
-              ]
-            },
-            {
-              "layers": "mybroadband:MyBroadband_ADSL_Availability_no_outline",
-              "parameters": {
-                "tiled": true
-              },
-              "dataUrlType": "none",
-              "clipToRectangle": true,
-              "description": "[MyBroadband ADSL Availability Map](https://www.mybroadband.communications.gov.au)",
-              "name": "Broadband ADSL Availability no Borders",
-              "rectangle": [
-                96.79939,
-                -43.59821,
-                153.63925,
-                -9.21592
-              ],
-              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
-              "url": "https://programs.communications.gov.au/geoserver/ows",
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
-                }
-              ]
-            },
-            {
-              "name": "Mobile Black Spot Database",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "community-reports-of-poor-or-no-mobile-coverage",
-              "resourceId": "6253b341-ac24-4b70-be8a-69abe4d7f72c",
-              "itemProperties": {
-                "opacity": 1.0,
-                "clipToRectangle": true
-              }
-            },
-            {
-              "name": "Mobile Black Spot Programme - Funded Base Stations",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "mobile-black-spot-programme-funded-base-stations",
-              "resourceId": "597dfa80-bd00-42eb-8f56-f1d9828f6724",
-              "itemProperties": {
-                "opacity": 1.0,
-                "clipToRectangle": true
-              }
-            }
+            }           
           ],
           "type": "group",
-          "name": "Communications"
+          "isOpen": true,
+          "name": "¡Basta ya! Colombia"
+        },
+        {
+          "items": [
+            {
+              "dataUrlType": "none",
+              "clipToRectangle": true,
+              "description": "[Anti-personnel mines](https://en.wikipedia.org/wiki/Anti-personnel_mine)",
+              "name": "Anti-personnel mines - Time Lapse",
+              "rectangle": [
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
+              ],
+               "tableStyle": {
+                "imageUrl": "images/bomb16x16.png"
+              },
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "url": "data/col_mines_time.csv",
+              "type": "csv",
+              "info": [
+                {
+                  "name": "Original Description",
+                  "content": "An anti personnel landmine is defined as a mine that explodes due to the presence, proximity or contact with a person. In the case the mine explodes, the mine must have the potential to incapacitate, injure or kill one or many people. Land mines designed to explode due to the presence or contact with vehicles are not considered anti personnel mines."
+        
+                }
+              ]
+            },
+            {
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "description": "Civil Property Damages (1988-2012).",
+              "type": "csv",
+              "url": "data/col_civil_damage_time.csv",
+              "name": "Civil Property Damages - Time Lapse",
+              "rectangle": [
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
+              ],
+              "tableStyle": {
+                "imageUrl": "images/ruins.png"
+              },
+              "info": [
+                {
+                  "name": "Original Description",
+                  "content": "A damage to civil property is defined as damage to any property that is not a military objective and property that should not be subject to attacks or acts of retaliation."
+                }
+              ]
+            },
+            {
+              "dataCustodian": "[Centro de Memoria Histórica](http://www.centrodememoriahistorica.gov.co/)",
+              "description": "Armed Conflict Massacres (1980-2012)",
+              "type": "csv",
+              "url": "data/col_massacres_time.csv",
+              "name": "Armed Conflict Massacres - Time Lapse",
+              "rectangle": [
+                -81.7357489,
+                -4.22711,
+                -66.851923,
+                13.3944833
+              ],
+              "tableStyle": {
+                "imageUrl": "images/shooting.png"
+              },
+              "info": [
+                {
+                  "name": "Original Description",
+                  "content": "Massacres are defined to be the intentional homicide of 4 or more helpless people at the same location and time using the same method of execution. These events are distinguished by the amount of public exposure with the intention to scare and intimidate. Massacres are the product of the armed actor's absolute power and the helplessness of the victim."
+                }
+              ]
+            }           
+          ],
+          "type": "group",
+          "isOpen": true,
+          "name": "¡Basta ya! Colombia - Time Lapses"
         }
       ],
       "type": "group",
       "isOpen": true,
-      "name": "National Data Sets"
+      "name": "Colombia Data Sets"
     }
   ]
 }

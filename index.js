@@ -129,10 +129,8 @@ terria.start({
     var ui = document.getElementById('ui');
 
     // Create the various base map options.
-    var australiaBaseMaps = createAustraliaBaseMapOptions(terria);
-    var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
+    var allBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
 
-    var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
     selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
 
     // Create the Settings / Map panel.
@@ -198,23 +196,8 @@ terria.start({
                 }
             }),
             new MenuBarItemViewModel({
-                label: 'Related Maps',
-                tooltip: 'View other maps in the NationalMap family.',
-                svgPath: svgRelated,
-                svgPathWidth: 14,
-                svgPathHeight: 13,
-                callback: function() {
-                    PopupMessageViewModel.open(ui, {
-                        title: 'Related Maps',
-                        message: require('fs').readFileSync(__dirname + '/lib/Views/RelatedMaps.html', 'utf8'),
-                        width: 600,
-                        height: 430
-                    });
-                }
-            }),
-            new MenuBarItemViewModel({
                 label: 'About',
-                tooltip: 'About National Map.',
+                tooltip: 'About Latin America Map.',
                 svgPath: svgInfo,
                 svgPathWidth: 18,
                 svgPathHeight: 18,

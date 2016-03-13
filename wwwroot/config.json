@@ -1,5 +1,7 @@
 {
     "proxyDomains" : [
+        "i3geo.saude.gov.br",
+        "www.geoservicos.inde.gov.br",
         "nicta.com.au",
         "gov.au",
         "csiro.au",
@@ -20,22 +22,22 @@
     ],
     "parameters": {
         "bingMapsKey": null,
-        "googleUrlShortenerKey": null,
-        "googleAnalyticsKey": null,
+        "googleUrlShortenerKey": "AIzaSyBKMsngR_ke7UYtclmHElzaStwoH_ysU-8",
+        "googleAnalyticsKey": "UA-75019756-1",
         "googleAnalyticsOptions": null,
         "disclaimer": {
-            "text": "Disclaimer: The NationalMap must not be used for navigation or precise spatial analysis",
+            "text": "Disclaimer: This map is not to be used for navigation or precise spatial analysis.",
             "url": "about.html"
         },
         "developerAttribution": {
-            "text": "Data61",
-            "link": "http://www.csiro.au/en/Research/D61"
+            "text": "DREXEL",
+            "link": "about.html"
         },
-        "appName": "NationalMap",
-        "supportEmail": "data@pmc.gov.au",
-        "brandBarElements(Remove this bit in parentheses for production deployment)": [
-            "<a target=\"_blank\" href=\"about.html\"><img src=\"images/NationalMap_Logo_RGB72dpi_REV_Blue text.png\" height=\"50\" alt=\"National Map\" title=\"Version: {{version}}\" /></a>",
-            "<a target=\"_blank\" href=\"http://www.gov.au/\"><img src=\"images/AG-Rvsd-Stacked-Press.png\" height=\"45\" alt=\"Australian Government\" /></a>"
+        "appName": "Latin America Map",
+        "supportEmail": "support@latam-map.org",
+        "brandBarElements": [
+            "<a target=\"_blank\" href=\"about.html\"><img src=\"images/south_am_map.png\" height=\"50\" alt=\"Latam Map\" title=\"Version: ' + version + '\" /></a>",
+            "<a target=\"_blank\" href=\"http://www.drexel.edu/\"><img src=\"images/AG-Rvsd-Stacked-Press.png\" height=\"30\" alt=\"Drexel University\" /></a>"
         ]
     }
 }
