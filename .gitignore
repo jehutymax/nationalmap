@@ -5,6 +5,7 @@ wwwroot/doc/
 npm-debug.log
 version.js
 wwwroot/init/nm.json
+wwwroot/config.json
 datasources/00_National_Data_Sets.json
 .DS_Store
 .localized
